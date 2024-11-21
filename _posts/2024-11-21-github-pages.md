@@ -31,10 +31,12 @@ categories: блог
     Создайте файл _config.yml (это файл настроек Jekyll).
     Вставьте в него базовые настройки, например:
 
-   `title: "Мой блог"
+   ```
+   title: "Мой блог"
    description: "Блог на GitHub Pages с Jekyll"
-   theme: minima`
-
+   theme: minima
+   ```
+   
    Тема minima — встроенный шаблон Jekyll, который автоматически поддерживается GitHub Pages. Конкретно для этой темы нужен файл README.md в корне репозитория.
    Создайте папку _posts:
         Нажмите Add file → Create new file.
@@ -44,7 +46,7 @@ categories: блог
 
     В файле _posts/2024-11-21-привет-мир.md вставьте текст в формате Markdown:
 
-`
+```
    ---
    layout: post
    title: "Привет, мир!"
@@ -52,7 +54,7 @@ categories: блог
   categories: блог
   ---
   Добро пожаловать в мой блог на GitHub Pages! Здесь я буду делиться своими мыслями.
-`
+```
   Нажмите Commit changes, чтобы сохранить файл.
 
 6. Проверьте сайт
