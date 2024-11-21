@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Привет, мир!"
+title: "Github pages"
 date: 2024-11-21 20:31:00 +0300
 categories: блог
 ---
