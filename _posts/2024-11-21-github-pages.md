@@ -32,8 +32,8 @@ categories: блог
     Вставьте в него базовые настройки, например:
 
     `title: "Мой блог"
-    `description: "Блог на GitHub Pages с Jekyll"
-    `theme: minima
+    description: "Блог на GitHub Pages с Jekyll"
+    theme: minima`
 
         Тема minima — встроенный шаблон Jekyll, который автоматически поддерживается GitHub Pages. Конкретно для этой темы нужен файл README.md в корне репозитория.
     Создайте папку _posts:
@@ -45,12 +45,12 @@ categories: блог
     В файле _posts/2024-11-21-привет-мир.md вставьте текст в формате Markdown:
 
     `---
-    `layout: post
-    `title: "Привет, мир!"
-    `date: 2024-11-21 12:00:00 +0300
-    `categories: блог
-    `---
-    Добро пожаловать в мой блог на GitHub Pages! Здесь я буду делиться своими мыслями.
+    layout: post
+    title: "Привет, мир!"
+    date: 2024-11-21 12:00:00 +0300
+    categories: блог
+    ---
+    Добро пожаловать в мой блог на GitHub Pages! Здесь я буду делиться своими мыслями.`
 
     Нажмите Commit changes, чтобы сохранить файл.
 
