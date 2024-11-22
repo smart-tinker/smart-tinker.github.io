@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.2/+esm'
+    mermaid.initialize({startOnLoad:true,theme:'neutral'})
+    await mermaid.run({querySelector:'code.language-mermaid'})
+</script>
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -26,8 +32,3 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-<script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.2/+esm'
-    mermaid.initialize({startOnLoad:true,theme:'neutral'})
-    await mermaid.run({querySelector:'code.language-mermaid'})
-</script>
