@@ -1,7 +1,4 @@
 title: "Smart-tinker"
 description: "блог про архитектуру, AI и инструментарий современного ИТ-специалиста"
 theme: minima
-markdown: kramdown
-kramdown:
-  syntax_highlighter_opts:
-    mermaid: true
+mermaid: true
