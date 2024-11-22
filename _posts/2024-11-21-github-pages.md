@@ -64,9 +64,8 @@ categories: блог
     Нажмите Commit changes, чтобы сохранить файл.
 
 6. Идём в Github actions и ждём как пройдёт билд и деплой сайта.  
-![./img/img.png](./img/img.png)
-![../img/img.png](../img/img.png)
-![img.png](/img/img.png)
+![/_posts/2024-11-21-1.png](/_posts/2024-11-21-1.png)
+![/img/2024-11-21-1.png](/img/2024-11-21-1.png)
 
 7. Проверьте сайт  
     Через несколько минут сайт станет доступен по адресу https://username.github.io. Вы увидите блог с вашим первым постом.
