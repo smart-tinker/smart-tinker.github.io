@@ -41,5 +41,16 @@ layout: default
       theme: 'default',
       securityLevel: 'loose'
     });
+
+    // Найти все pre > code.language-mermaid блоки
+    document.querySelectorAll('pre > code.language-mermaid').forEach(function(element) {
+      // Создать div для диаграммы
+      var div = document.createElement('div');
+      div.classList.add('mermaid');
+      // Копируем содержимое из code блока
+      div.textContent = element.textContent;
+      // Заменяем pre элемент на наш div
+      element.parentElement.replaceWith(div);
+    });
   });
 </script>
