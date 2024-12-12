@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Тест Mermaid диаграмм"
-date: 2024-01-10
+date: 2024-11-23
 ---
 
 # Тестирование Mermaid диаграмм
